@@ -4,6 +4,6 @@ Implements the method developed in Graetz & Nordin (2026): A Double-differences 
 
 The file ```rd2diff.do``` contains the Stata command. The file ```rd2diff-examples.do``` contains examples illustrating the use of the command, using synthetic data.
 
-The R implementation can be installed as an R package by running ```pak::pkg_install("mattiasnordin/rd2diff/tree/main/R/rd2diff")```. Note that you have to install ```pak``` first.
+The file ```rd2diff.R``` contains the R functions. The two function ```rd2diff``` and ```rd2diff.aggregate``` are intended to be used by the user. The file ```rd2diff-examples.R``` contains examples illustrating of to use these two functions, using synthetic data.
 
 Note that function implementation is at an early stage and subject to change.
